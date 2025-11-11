@@ -1,0 +1,84 @@
+.masters-link {
+    color: #526484 !important
+}
+
+.master-name p {
+    margin: 0
+}
+
+.b-nav a {
+    font-size: 10px !important;
+}
+
+.nav-buttons {
+    border-top: solid 1px #4d4d4d
+}
+
+.payment-methods a {
+    font-size: 16px !important
+}
+
+.payment-methods img {
+    margin-right: 10px !important
+}
+
+.payment-wallet-area p {
+    font-size: 16px !important
+}
+
+
+.trans-history-link a {
+    color: #4d4d4d !important
+}
+
+.master-menu li {
+    margin: 22px 0px !important
+}
+
+.blink_me {
+    animation: blinker 1s linear infinite;
+  }
+
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  th, td {
+    white-space: nowrap !important;
+  }
+
+  .wallet-settings-select:focus {
+    outline: 0
+  }
+
+  .cvv-number {
+    width: 37px;
+    outline: none;
+    color: #526484
+  }
+
+  .card-number {
+    outline: none;
+    color: #526484
+  }
+
+  .place-order-symbols:focus {
+    outline: none
+  }
+
+  .sl-plus-btn, .tp-plus-btn, .sl-minus-btn, .tp-minus-btn {
+    width: 15%;
+    border: 0
+  }
+
+  .sl-field, .tp-field {
+    width: 65%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #4d4d4d;
+    outline: 0
+  }
+

@@ -1,0 +1,24 @@
+{
+    "name": "Bullstock Fx",
+    "short_name": "Bullstock Fx",
+    "icons": [
+      {
+        "src": "/assets/logo/maskable_icon_x192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any"
+      },
+      {
+        "src": "/assets/logo/maskable_icon_x512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "maskable"
+      }
+    ],
+    "start_url": "/auth/login",
+    "background_color": "#ffffff",
+    "theme_color": "#0971fe",
+    "display": "standalone",
+    "scope": "/",
+    "description": "A platform for trading and investment."
+  }

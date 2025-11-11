@@ -1,0 +1,21 @@
+<div class="nk-footer nk-auth-footer-full">
+    <div class="container wide-lg">
+        <div class="row g-3">
+            <div class="col-lg-6 order-lg-last">
+                <ul class="nav nav-sm justify-content-center justify-content-lg-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{route('home.terms-conditions')}}">Terms & Condition</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{route('home.privacy-policy')}}">Privacy Policy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <div class="nk-block-content text-center text-lg-left">
+                    <p class="text-soft">&copy; {{ date('Y') }} {{ config('app.name') }}. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
